@@ -1,0 +1,40 @@
+
+---
+- name: add orcale for java
+  hosts: localhost
+  
+  apt_repository:
+    repo: ppa:webupd8team/java
+    state: present
+    tasks:
+      - name: install java 
+        apt:
+          name: oracle-java8-installer
+          update_cache: yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+
+---
+- name: file
+  hosts: localhost
+  tasks:
+    - name: create file
+      file:
+        path: /home/ncs/ashish-workspace/ansible-Example/devops.txt
+        mode: 400
+        state: touch
+
+        
+  

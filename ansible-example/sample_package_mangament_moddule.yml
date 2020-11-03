@@ -1,0 +1,7 @@
+---
+- name: Install of the latest version of apache
+  dnf:
+    - name:
+       - httpd
+       - mariadb-server
+         state: latest

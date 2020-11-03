@@ -1,0 +1,7 @@
+
+---
+- name: Debug_example - Hello world
+  hosts: localhost
+  tasks:
+    - name: print debug message
+      debug:

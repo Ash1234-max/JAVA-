@@ -1,0 +1,11 @@
+---
+
+
+- name: echo 'hello world'
+  command: echo "Hello world"
+  register: result
+
+- name: print message
+  debug:
+   
+

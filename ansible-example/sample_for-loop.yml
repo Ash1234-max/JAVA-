@@ -1,0 +1,12 @@
+ 
+---
+- name: Install Multiple package
+  hosts: all
+  tasks:
+    - name: Install package
+      shell: name={{item}} state=latest
+      with_items:
+        - make
+        - gcc
+        - httpd
+        - curl

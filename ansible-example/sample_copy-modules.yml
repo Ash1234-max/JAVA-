@@ -1,0 +1,9 @@
+
+---
+- name: copy 
+  hosts: localhost
+  tasks:
+   - name: Copy files
+     copy:
+      src: /home/ncs/ashish-workspace/ansible-Example/sample_for-loop.yml
+      dest: /home/ncs/Downloads
