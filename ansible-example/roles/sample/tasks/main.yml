@@ -1,0 +1,19 @@
+---
+
+#- include: copy-module-test.yml
+
+#- include: archive-module-test.yml 
+#- include: file-module-test.yml
+#- include: command-module-test.yml 
+#- include: template-module-test.yml
+#- include: sample-of-module.yml
+#- include: set_fact-module-test.yml
+
+- name: echo 'hello world' 
+  command: echo "Hello {{ name }}"
+  register: result
+
+- debug: 
+    msg: "Hello {{ name }}"
+  
+

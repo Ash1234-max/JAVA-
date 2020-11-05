@@ -1,0 +1,5 @@
+
+- name: print greeting
+- set_fact: 
+      one_fact: name=Percy
+    - debug: msg="Hello, {{ name }}!

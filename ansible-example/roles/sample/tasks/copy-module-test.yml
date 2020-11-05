@@ -1,0 +1,11 @@
+---
+- name: copy files
+  copy:
+    src: sample.yml
+    dest: /home/ncs/Downloads
+    mode: 400
+    owner: ncs
+    group: ncs
+
+    
+

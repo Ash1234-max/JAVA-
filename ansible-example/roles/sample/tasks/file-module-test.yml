@@ -1,0 +1,6 @@
+---
+- name: create file
+  file:
+    path: /home/ncs/ashish-workspace/sample_YAML.yml
+    mode: 400
+    state: touch

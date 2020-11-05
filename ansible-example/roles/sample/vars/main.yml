@@ -1,0 +1,23 @@
+---
+
+
+
+
+
+register_name: result
+
+value: Hello world
+
+local_var: 192.168.0.1
+
+
+
+all: 
+  country:
+    india:
+      madhya_pradesh:
+        indore:
+          NCS:
+            hosts:
+              hosts1:
+              hosts:

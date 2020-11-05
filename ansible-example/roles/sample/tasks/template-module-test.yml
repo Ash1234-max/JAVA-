@@ -1,0 +1,15 @@
+---
+
+- name: Ansible Template Example
+  register: register_name
+  template:
+    src: Hello_world.j2
+    dest: /home/ncs/Downloads/hello_world.txt
+    mode: 777
+    owner: ncs
+    group: ncs
+   
+    
+     
+   
+

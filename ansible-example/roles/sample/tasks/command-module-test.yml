@@ -1,0 +1,5 @@
+---
+- name: Show text file 
+  command: echo "Hi its me"
+  register: register_name
+  

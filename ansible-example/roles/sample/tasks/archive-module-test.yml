@@ -1,0 +1,6 @@
+--- 
+- name: archive
+  register: register_name
+  archive: 
+      path: /home/ncs/ashish-workspace/bash-scripts/README.md
+      dest: /home/ncs/ashish-workspace/ansible/README.tgz

@@ -1,0 +1,5 @@
+---
+- name: unarchive
+  unarchive:
+    src: sample_for-loop.yml
+    dest: /home/ncs/Downloads/README.me
