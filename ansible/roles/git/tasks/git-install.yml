@@ -1,0 +1,6 @@
+---
+- name: Install Server Basics
+  get_url: 
+    url: https://www.kernel.org/pub/software/scm/git/git-2.29.2.tar.xz
+    dest: "{{Download_location}}"
+   
