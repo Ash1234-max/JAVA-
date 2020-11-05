@@ -1,0 +1,10 @@
+---
+- name: Download java 
+  get_url:
+    url: "{{link}}"
+    dest: "{{destination_location}}"
+    timeout: 10
+    force: no
+    
+    
+    

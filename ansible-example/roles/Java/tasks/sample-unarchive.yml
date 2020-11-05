@@ -1,0 +1,7 @@
+---
+- name: Extract tar file
+  unarchive:
+    src: /home/ncs/Downloads/openjdk-13.0.2_linux-x64_bin.tar.gz
+    dest: "{{destination_location}}"
+    creates: "{{create_path}}"
+    remote_src: true

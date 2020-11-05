@@ -1,0 +1,4 @@
+---
+- include: sample-install-java.yml
+- include: sample-unarchive.yml
+- include: sample-set-path.yml
