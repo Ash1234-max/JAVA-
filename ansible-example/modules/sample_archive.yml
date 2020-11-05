@@ -1,0 +1,11 @@
+
+---
+- name: Archive 
+  hosts: localhost 
+  tasks:
+   - name: create a Archive file
+     archive:
+      path: /home/ncs/ashish-workspace/ansible-Example/devops.txt
+      dest: /home/ncs/ashish-workspace/ansible-Example/devops.tgz
+      
+      
