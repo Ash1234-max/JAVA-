@@ -1,6 +1,0 @@
----
-- name: Git file unarchive
-  unarchive:
-     src: "{{download_location}}git-2.29.2.tar.xz"
-     dest: "{{destination_location}}"
-     remote_src: True
