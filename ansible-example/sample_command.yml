@@ -1,6 +1,0 @@
----
-- name: command
-  hosts: localhost
-  tasks:
-    - name: cat command
-      command: cat /home/ncs/ashish-workspace/ansible-Example/sample_for-loop.yml
