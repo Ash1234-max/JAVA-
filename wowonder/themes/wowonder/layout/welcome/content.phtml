@@ -1,0 +1,248 @@
+<!-- <?php //echo Wo_LoadPage('welcome/welcome-header-register');
+		?> -->
+
+
+
+<!-- <div class="wrapper"> -->
+
+
+<!-- <div class="typing-element"></div>  -->
+
+<div class="row">
+	<div class="col-sm-6">
+		<div class="login fadeInUp animated animated_5">
+			<div class="login_left_combo_parent">
+				<div class="carousel slide carousel-fade" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active" style=" position: fixed; width: 100%; background-image: url(<?php echo $wo['config']['theme_url']; ?>/img/backgrounds/image1.<?php echo $wo['config']['background_extension']; ?>)"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="login1 fadeInUp animated animated_5">
+			<div class="login_left_combo_parent">
+				<div class="carousel slide " id="carouselExampleIndicators" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="Social col-sm-7 ">
+								<br><br>
+								<h5>FEATURES WE PROVIDE ------------- </h5>
+							</div>
+							<div class="text2 col-sm-7">
+								<br>
+								<h2> Social Networking Platform For Trucking Industry</h2>
+							</div>
+							<div>
+								<br>
+								<p class="p-f-text col-sm-7">
+									Trucker Hangout is a professional platform where anyone from the trucking industry is able to collaborate, share, find services, sell or buy products and engage with other community members.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="Social col-sm-7 ">
+								<br><br>
+								<h5>FEATURES WE PROVIDE ------------- </h5>
+							</div>
+							<div class="text2 col-sm-7">
+								<br>
+								<h2> Social Networking Platform For Trucking Industry</h2>
+							</div>
+							<div>
+								<br>
+								<p class="p-f-text col-sm-7">
+									Trucker Hangout is a professional platform where anyone from the trucking industry is able to collaborate, share, find services, sell or buy products and engage with other community members.
+								</p>
+							</div>
+						</div>
+						<div class="item" style="color: black;">
+							<div class="Social col-sm-7 ">
+								<br><br>
+								<h5>FEATURES WE PROVIDE ------------- </h5>
+							</div>
+							<div class="text2 col-sm-7">
+								<br>
+								<h2> Social Networking Platform For Trucking Industry</h2>
+							</div>
+							<div>
+								<br>
+								<p class="p-f-text col-sm-7">
+									Trucker Hangout is a professional platform where anyone from the trucking industry is able to collaborate, share, find services, sell or buy products and engage with other community members.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12" id="carousel-for-bullets">
+					<ol class="carousel-indicators" >
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<span>
+							<a href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<button type="button" class="arrow-button"><i class="fa fa-arrow-left "></i></button>
+							</a>
+							<a href="#carouselExampleIndicators" role="button" data-slide="next">
+								<button type="button" class="arrow-button"><i class="fa fa-arrow-right "></i></button>
+
+							</a>
+						</span>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<div class="col-sm-6" style="padding: 75px; margin-top: 182px;">
+
+		<form id="login" class="fadeInUp animated animated_9" method="post">
+			<h1 class="title"><?php echo $wo['lang']['login'] ?></h1>
+			<p>Get started with your account.</p>			
+			<div class="errors"></div>
+			<div class="wow_form_fields">
+				<label for="username"><?php echo $wo['lang']['username'] ?></label>
+				<input id="username" name="username" type="text" autocomplete="off" autofocus>
+			</div>
+			<div class="wow_form_fields">
+				<label for="password"><?php echo $wo['lang']['password'] ?></label>
+				<input id="password" name="password" type="password" autocomplete="off">
+				<i class="fa fa-eye" id="togglePassword"></i>
+			</div>
+			<!-- <div class="forgot_password">
+				<a href="<?php //echo Wo_SeoLink('index.php?link1=forgot-password'); 
+							?>"><?php echo $wo['lang']['forget_password'] ?></a>
+			</div> -->
+			<div class="login_signup_combo">
+				<div class="login__">
+					<button type="submit" class="btn btn-main btn-mat btn-mat-raised add_wow_loader"><?php echo $wo['lang']['login'] ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="col-12">
+				<div class="mt-4">
+					<div id="social-login">
+						<span style="font-size: 15px; background-color: #ffff;     padding: 3px 9px;">
+					
+							Or login with social media
+							<!--Padding is optional-->
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="login_signup_combo">
+				<div class="login__1">
+					<button type="submit" class=" btn btn-main btn-mat btn-mat-raised add_wow_loader">
+					<img  src="https://img.icons8.com/fluent/48/000000/facebook-new.png" width="32px" height="30px"/>
+					<span class="pl-3">Log in with Facebook</span>
+</button>
+				</div>
+			</div>
+			<div class="login_signup_combo">
+				<div class="login__2">
+					<button type="submit" class="btn btn-main btn-mat btn-mat-raised add_wow_loader">
+					<img  src="https://img.icons8.com/color/48/000000/google-logo.png" width="32px" height="30px" />
+					<span class="pl-3">Log in with Google</span>
+
+</button>
+					
+				</div>
+			</div>
+			<?php if (!empty($_GET['last_url'])) { ?>
+				<div class="form-group"><input type="hidden" name="last_url" value="<?php echo urldecode(Wo_Secure($_GET['last_url'])); ?>"></div>
+			<?php } ?>
+			<div class="random_users">
+				<?php if ($wo['config']['profile_privacy'] == 1) { ?>
+					<hr>
+					<div class="signup__">
+					<?php if ($wo['config']['user_registration'] == 1) : ?>
+						<p class="font-weight-bolder" ><?php echo $wo['lang']['dont_have_account'] ?> <a class="dec" href="<?php echo Wo_SeoLink('index.php?link1=register'); ?>"><?php echo $wo['lang']['register'] ?></a></p>
+					<?php endif ?>
+				</div>
+					<?php echo Wo_LoadPage('welcome/welcome-users-profiles'); ?>
+				<?php } ?>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+<!-- <div class="container"><?php echo Wo_LoadPage('footer/welcome'); ?></div> -->
+
+<script>
+	const togglePassword = document.querySelector('#togglePassword');
+	const password = document.querySelector('#password');
+
+	togglePassword.addEventListener('click', function(e) {
+		// toggle the type attribute
+		const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+		password.setAttribute('type', type);
+		// toggle the eye slash icon
+		this.classList.toggle('fa-eye-slash');
+	});
+</script>
+
+<script>
+	var working = false;
+	var $this = $('#login');
+	var $state = $this.find('.errors');
+
+	<?php if ($wo['config']['googleLogin'] != 0) : ?>
+
+		function signOut() {
+			var auth2 = gapi.auth2.getAuthInstance();
+			auth2.signOut().then(function() {
+				console.log('User signed out.');
+			});
+		}
+
+		function onSignIn(googleUser) {
+			// The ID token you need to pass to your backend:
+			var id_token = googleUser.getAuthResponse().id_token;
+			$.post(Wo_Ajax_Requests_File() + '?f=google_login', {
+				id_token: id_token
+			}, function(data, textStatus, xhr) {
+				if (data.status == 200) {
+					signOut();
+					$state.addClass('success');
+					$state.html('<?php echo $wo['lang']['welcome_back'] ?>');
+					$this.find('.add_wow_loader').removeClass('btn-loading');
+					setTimeout(function() {
+						window.location.href = data.location;
+					}, 1000);
+				} else {
+					$this.find('button').attr("disabled", false);
+					$this.find('.add_wow_loader').removeClass('btn-loading');
+					$state.html(data.message);
+				}
+			});
+		}
+	<?php endif; ?>
+
+	$(function() {
+		$('#login').ajaxForm({
+			url: Wo_Ajax_Requests_File() + '?f=login',
+			beforeSend: function() {
+				working = true;
+				$this.find('button').attr("disabled", true);
+				$this.find('.add_wow_loader').addClass('btn-loading');
+			},
+			success: function(data) {
+				if (data.status == 200 || data.status == 600) {
+					$state.addClass('success');
+					$state.html('<?php echo $wo['lang']['welcome_back'] ?>');
+					$this.find('.add_wow_loader').removeClass('btn-loading');
+					setTimeout(function() {
+						window.location.href = data.location;
+					}, 1000);
+				} else {
+					var errors = data.errors.join("<br>");
+					$this.find('button').attr("disabled", false);
+					$this.find('.add_wow_loader').removeClass('btn-loading');
+					$state.html(errors);
+				}
+				working = false;
+			}
+		});
+	});
+</script>
